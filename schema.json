@@ -692,6 +692,11 @@
         "type": "color",
         "label": "Background color",
         "id": "dropdown--quickSearch-backgroundColor"
+      },
+      {
+        "type": "checkbox",
+        "label": "Show header information bar site wide",
+        "id": "show_header_info_bar"
       }
     ]
   },
