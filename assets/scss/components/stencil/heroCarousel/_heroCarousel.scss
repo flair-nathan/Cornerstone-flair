@@ -42,27 +42,23 @@
 
     .slick-next,
     .slick-prev {
-        top: 20%;
-
-        @include breakpoint("medium") {
-            top: 50%;
-        }
-    }
-
-    .slick-next {
-        right: 15px;
-
-        @include breakpoint("medium") {
-            right: 25px;
-        }
+        top: 30px;
+        height: 100%;
+        background: transparent;
+        width: 6%;
     }
 
     .slick-prev {
-        left: 15px;
+        left: 0;
+    }
 
-        @include breakpoint("medium") {
-            left: 25px;
-        }
+    .slick-next {
+        right: 0;
+    }
+
+    .slick-next::before,
+    .slick-prev::before {
+        background-image: none;
     }
 
     .slick-dots {
